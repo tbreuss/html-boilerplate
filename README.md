@@ -8,4 +8,4 @@ Pure offers a set of small, responsive CSS modules that you can use in every web
 
 ## Installation
 
-Simply clone this repo and use it as a starter for whatever you're woring on.
+Simply clone this repo and use it as a starter for whatever you're working on.
