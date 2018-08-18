@@ -1,6 +1,8 @@
 # HTML Boilerplate
 
-This is my personal HTML boilerplate when prototyping or testing new ideas. It is based on https://purecss.io, a set of small, responsive CSS modules that you can use in every web project.
+This is my personal HTML boilerplate when prototyping or testing new ideas.
+
+It is based on https://purecss.io. Pure offers a set of small, responsive CSS modules that you can use in every web project.
 
 ## Installation
 
