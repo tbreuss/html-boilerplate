@@ -133,7 +133,7 @@ a.pure-button-primary:hover {
     margin-top:-1px;
     margin-bottom: 3em;
 }
-.hero__title {
+.hero__heading {
     color:white;
     text-align:center;
     margin:1em 0 0 0;
@@ -177,7 +177,7 @@ a.pure-button-primary:hover {
     height:1px;
 }
 
-.footer-about__header {
+.footer-about__heading {
     color:#ffffff;
     margin-top: 0;
     margin-bottom: 1em;
@@ -187,7 +187,7 @@ a.pure-button-primary:hover {
     padding-right: 5em;
 }
 
-.footer-links__header {
+.footer-links__heading {
     color:#ffffff;
     margin-top: 0;
     margin-bottom: 1em;
@@ -199,7 +199,7 @@ a.pure-button-primary:hover {
     line-height:1.6em;
 }
 
-.footer-tools__header {
+.footer-tools__heading {
     color:#ffffff;
     margin-top: 0;
     margin-bottom: 1em;
