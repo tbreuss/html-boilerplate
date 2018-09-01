@@ -12,4 +12,4 @@ Simply download this repo and use it as a starter for whatever you're working on
 
 ## License
 
-Licensed under the [MIT License](https://github.com/tbreuss/html-boilerplate/blob/master/LICENSE) by [Thomas Breuss](https://www.tebe.ch)
+Licensed under the [MIT License](https://github.com/tbreuss/html-boilerplate/blob/master/LICENSE).
