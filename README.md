@@ -6,6 +6,10 @@ It is based on https://purecss.io.
 
 Pure offers a set of small, responsive CSS modules that you can use in every web project.
 
+## Screenshot
+
+![Screenshot](screenshot.png)
+
 ## Installation
 
 Simply download this repo and use it as a starter for whatever you're working on.
