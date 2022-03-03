@@ -3,6 +3,8 @@
 This is my personal HTML boilerplate.
 It is ideal for simple websites, MVPs, prototyping, or testing new ideas.
 
+<https://tbreuss.github.io/html-boilerplate/>
+
 ## Features
 
 - based on [Pure.css](https://purecss.io)
