@@ -1,10 +1,16 @@
 # HTML Boilerplate
 
-This is my personal HTML boilerplate for prototyping or testing new ideas.
+This is my personal HTML boilerplate.
+It is ideal for MVPs, prototyping, or testing new ideas.
 
-It is based on https://purecss.io.
+## Features
 
-Pure offers a set of small, responsive CSS modules that you can use in every web project.
+- based on [Pure.css](https://purecss.io)
+- ideal for up to ten pages
+- responsive and mobile first
+- 5ths and 24ths based grid
+- horizontal-to-Vertical menu with hamburger
+- sticky footer
 
 ## Screenshot
 
