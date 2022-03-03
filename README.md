@@ -1,7 +1,7 @@
 # HTML Boilerplate
 
 This is my personal HTML boilerplate.
-It is ideal for MVPs, prototyping, or testing new ideas.
+It is ideal for simple websites, MVPs, prototyping, or testing new ideas.
 
 ## Features
 
