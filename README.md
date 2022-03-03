@@ -13,7 +13,7 @@ It is ideal for simple websites, MVPs, prototyping, or testing new ideas.
 - 5ths and 24ths based grid
 - horizontal-to-vertical menu with hamburger
 - sticky footer
-- custom 404 not found page
+- custom 404 page
 
 ## Screenshot
 
