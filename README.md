@@ -9,7 +9,7 @@ It is ideal for MVPs, prototyping, or testing new ideas.
 - ideal for up to ten pages
 - responsive and mobile first
 - 5ths and 24ths based grid
-- horizontal-to-Vertical menu with hamburger
+- horizontal-to-vertical menu with hamburger
 - sticky footer
 
 ## Screenshot
