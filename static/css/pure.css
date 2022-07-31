@@ -1,5 +1,5 @@
 /*!
-Pure v2.0.6
+Pure v2.1.0
 Copyright 2013 Yahoo!
 Licensed under the BSD License.
 https://github.com/pure-css/pure/blob/master/LICENSE
@@ -19,8 +19,8 @@ Copyright (c) Nicolas Gallagher and Jonathan Neal
  */
 
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -31,7 +31,7 @@ html {
  */
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 /**
@@ -39,7 +39,7 @@ body {
  */
 
 main {
-  display: block;
+    display: block;
 }
 
 /**
@@ -48,8 +48,8 @@ main {
  */
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+    font-size: 2em;
+    margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -61,10 +61,10 @@ h1 {
  */
 
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
 }
 
 /**
@@ -73,8 +73,8 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -85,7 +85,7 @@ pre {
  */
 
 a {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 /**
@@ -94,10 +94,10 @@ a {
  */
 
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -106,7 +106,7 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: bolder;
+    font-weight: bolder;
 }
 
 /**
@@ -117,8 +117,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
 }
 
 /**
@@ -126,7 +126,7 @@ samp {
  */
 
 small {
-  font-size: 80%;
+    font-size: 80%;
 }
 
 /**
@@ -136,18 +136,18 @@ small {
 
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 
 sub {
-  bottom: -0.25em;
+    bottom: -0.25em;
 }
 
 sup {
-  top: -0.5em;
+    top: -0.5em;
 }
 
 /* Embedded content
@@ -158,7 +158,7 @@ sup {
  */
 
 img {
-  border-style: none;
+    border-style: none;
 }
 
 /* Forms
@@ -174,10 +174,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
 }
 
 /**
@@ -187,7 +187,7 @@ textarea {
 
 button,
 input { /* 1 */
-  overflow: visible;
+    overflow: visible;
 }
 
 /**
@@ -197,7 +197,7 @@ input { /* 1 */
 
 button,
 select { /* 1 */
-  text-transform: none;
+    text-transform: none;
 }
 
 /**
@@ -208,7 +208,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+    -webkit-appearance: button;
 }
 
 /**
@@ -219,8 +219,8 @@ button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
+    border-style: none;
+    padding: 0;
 }
 
 /**
@@ -231,7 +231,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+    outline: 1px dotted ButtonText;
 }
 
 /**
@@ -239,7 +239,7 @@ button:-moz-focusring,
  */
 
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
+    padding: 0.35em 0.75em 0.625em;
 }
 
 /**
@@ -250,13 +250,13 @@ fieldset {
  */
 
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
 }
 
 /**
@@ -264,7 +264,7 @@ legend {
  */
 
 progress {
-  vertical-align: baseline;
+    vertical-align: baseline;
 }
 
 /**
@@ -272,7 +272,7 @@ progress {
  */
 
 textarea {
-  overflow: auto;
+    overflow: auto;
 }
 
 /**
@@ -282,9 +282,9 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
 }
 
 /**
@@ -293,7 +293,7 @@ textarea {
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
+    height: auto;
 }
 
 /**
@@ -302,8 +302,8 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -311,7 +311,7 @@ textarea {
  */
 
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 /**
@@ -320,8 +320,8 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -332,7 +332,7 @@ textarea {
  */
 
 details {
-  display: block;
+    display: block;
 }
 
 /*
@@ -340,7 +340,7 @@ details {
  */
 
 summary {
-  display: list-item;
+    display: list-item;
 }
 
 /* Misc
@@ -351,7 +351,7 @@ summary {
  */
 
 template {
-  display: none;
+    display: none;
 }
 
 /**
@@ -359,7 +359,7 @@ template {
  */
 
 [hidden] {
-  display: none;
+    display: none;
 }
 
 /*csslint important:false*/
@@ -425,19 +425,19 @@ html {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
 
     /* Prevents distributing space between rows */
     -ms-flex-line-pack: start;
-        align-content: flex-start;
+    align-content: flex-start;
 }
 
 /* IE10 display: -ms-flexbox (and display: flex in IE 11) does not work inside a table; fall back to block and rely on font hack */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-	table .pure-g {
-		display: block;
-	}
+    table .pure-g {
+        display: block;
+    }
 }
 
 /* Opera as of 12 on Windows needs word-spacing.
@@ -657,11 +657,11 @@ this the same font stack that Normalize.css sets for the `body`.
     cursor: pointer;
     -webkit-user-drag: none;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Firefox: Get rid of the inner focus border */
@@ -713,7 +713,7 @@ this the same font stack that Normalize.css sets for the `body`.
 .pure-button-active,
 .pure-button:active {
     -webkit-box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
-            box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
     border-color: #000;
 }
 
@@ -727,7 +727,7 @@ this the same font stack that Normalize.css sets for the `body`.
     opacity: 0.40;
     cursor: not-allowed;
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     pointer-events: none;
 }
 
@@ -789,11 +789,11 @@ so we can ignore the csslint warning.
     display: inline-block;
     border: 1px solid #ccc;
     -webkit-box-shadow: inset 0 1px 3px #ddd;
-            box-shadow: inset 0 1px 3px #ddd;
+    box-shadow: inset 0 1px 3px #ddd;
     border-radius: 4px;
     vertical-align: middle;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*
@@ -805,10 +805,10 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     display: inline-block;
     border: 1px solid #ccc;
     -webkit-box-shadow: inset 0 1px 3px #ddd;
-            box-shadow: inset 0 1px 3px #ddd;
+    box-shadow: inset 0 1px 3px #ddd;
     border-radius: 4px;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -1138,7 +1138,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 /*csslint adjoining-classes: false, box-model:false*/
 .pure-menu {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .pure-menu-fixed {
