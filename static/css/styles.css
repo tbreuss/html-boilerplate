@@ -141,20 +141,56 @@ body {
     color: #333;
 }
 
+/* Boxes */
+
+.pure-g > div {
+    box-sizing: border-box;
+}
+
 .l-boxes {
     background: #f5f5f6;
 }
 
-.l-box {
+.l-boxes-item {
     padding: 1em;
+    border-bottom: 1em solid #ffffff;
 }
 
-.l-box h4 {
+.l-boxes-item:last-child {
+    margin-bottom: 0;
+}
+
+.l-boxes-item h4 {
     margin-top: 0;
 }
 
-.l-box p:last-of-type {
+.l-boxes-item p {
+    margin-bottom: 0.5em;
+}
+
+.l-boxes-item p:last-of-type {
     margin-bottom: 0;
+}
+
+.l-boxes-item a {
+    color: inherit;
+    font-size: 0.9em;
+}
+
+.l-boxes-item a:hover {
+    color: #111427;
+}
+
+@media screen and (min-width: 48em) {
+    .l-boxes-item {
+        border-bottom: none;
+    }
+    .l-boxes-item:nth-child(1) {
+        border-right: 0.5em solid #ffffff;
+    }
+    .l-boxes-item:nth-child(2) {
+        border-left: 0.5em solid #ffffff;
+    }
 }
 
 /* Hero */
